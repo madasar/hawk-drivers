@@ -1,0 +1,56 @@
+/*
+ * Copyright 2013 Modeliosoft
+ *
+ * This file is part of Modelio.
+ *
+ * Modelio is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * Modelio is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Modelio.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ */  
+                                    
+
+/* WARNING: GENERATED FILE -  DO NOT EDIT */
+/*   Metamodel version: 9022              */
+/*   SemGen version   : 2.0.07.9012       */
+package org.modelio.metamodel.uml.statik;
+
+import java.util.List;
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+import org.eclipse.emf.common.util.EList;
+import org.eclipse.emf.ecore.EObject;
+import org.modelio.metamodel.uml.infrastructure.ModelElement;
+import org.modelio.metamodel.uml.statik.ClassAssociation;
+import org.modelio.metamodel.uml.statik.NaryAssociationEnd;
+import org.modelio.metamodel.uml.statik.NaryLink;
+
+@objid ("0021601a-c4bf-1fd8-97fe-001ec947cd2a")
+public interface NaryAssociation extends ModelElement {
+    @objid ("13f8fed4-a708-467b-a3f3-a9e7fdf9e769")
+    EList<NaryLink> getOccurence();
+
+    @objid ("c90c35e6-6738-44d2-b874-efa110b7ce62")
+    <T extends NaryLink> List<T> getOccurence(java.lang.Class<T> filterClass);
+
+    @objid ("d183748d-8488-4d28-b39e-b595ba365e69")
+    EList<NaryAssociationEnd> getNaryEnd();
+
+    @objid ("faad1f68-00a1-4e7f-9e46-2b6e50766d6f")
+    <T extends NaryAssociationEnd> List<T> getNaryEnd(java.lang.Class<T> filterClass);
+
+    @objid ("7c01e47b-718f-4e31-a765-d85aa153b598")
+    ClassAssociation getLinkToClass();
+
+    @objid ("30404601-7815-4f8f-969a-7d2fca58e2d0")
+    void setLinkToClass(ClassAssociation value);
+
+}

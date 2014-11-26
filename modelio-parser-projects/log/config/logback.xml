@@ -1,0 +1,22 @@
+<configuration debug="true">
+
+  <appender name="LOGFILE" class="ch.qos.logback.core.FileAppender">
+    <file>${user.home}/.modelio/3.2/modelio.log</file>
+    <encoder>
+      <pattern>%date{ISO8601} %-5level %-16.16logger{16} - %message%n%ex{full}</pattern>
+    </encoder>
+  </appender>
+
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <!-- encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+    <encoder>
+      <pattern>%date{HH:mm:ss.SSS} %-5level %-16.16logger{16} - %message%n%ex{short}</pattern>
+    </encoder>
+  </appender>
+
+  <root level="DEBUG">
+    <appender-ref ref="STDOUT" />
+    <appender-ref ref="LOGFILE" />
+  </root>
+</configuration>
