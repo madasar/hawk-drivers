@@ -1,9 +1,9 @@
-package uk.ac.york.cs.mde.hawk.modelio;
+package org.hawk.modelio;
 
 import org.eclipse.emf.ecore.EDataType;
 import org.eclipse.emf.ecore.EObject;
 
-import com.googlecode.hawk.core.model.*;
+import org.hawk.core.model.*;
 
 public class ModelioDataType extends ModelioObject implements IHawkDataType {
 

@@ -8,7 +8,7 @@
  * Contributors:
  *     Konstantinos Barmpis - initial API and implementation
  ******************************************************************************/
-package uk.ac.york.cs.mde.hawk.modelio.mm;
+package org.hawk.modelio.mm;
 
 import java.util.Arrays;
 

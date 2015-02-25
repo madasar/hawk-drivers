@@ -8,7 +8,7 @@
  * Contributors:
  *     Konstantinos Barmpis - initial API and implementation
  ******************************************************************************/
-package uk.ac.york.cs.mde.hawk.modelio.mm;
+package org.hawk.modelio.mm;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -24,12 +24,12 @@ import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 import org.eclipse.emf.ecore.xmi.impl.EcoreResourceFactoryImpl;
 import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
+import org.hawk.modelio.ModelioPackage;
+import org.hawk.modelio.mm.ModelioMetaModelResource;
 
-import com.googlecode.hawk.core.IMetaModelResourceFactory;
-import com.googlecode.hawk.core.model.IHawkMetaModelResource;
-import com.googlecode.hawk.core.model.IHawkPackage;
-import uk.ac.york.cs.mde.hawk.modelio.ModelioPackage;
-import uk.ac.york.cs.mde.hawk.modelio.mm.ModelioMetaModelResource;
+import org.hawk.core.IMetaModelResourceFactory;
+import org.hawk.core.model.IHawkMetaModelResource;
+import org.hawk.core.model.IHawkPackage;
 
 public class ModelioMetaModelResourceFactory implements IMetaModelResourceFactory {
 

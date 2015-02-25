@@ -1,4 +1,4 @@
-package uk.ac.york.cs.mde.hawk.modelio;
+package org.hawk.modelio;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -19,8 +19,8 @@ import org.modelio.vbasic.auth.NoneAuthData;
 import org.modelio.vbasic.progress.NullProgress;
 
 
-import com.googlecode.hawk.core.IModelResourceFactory;
-import com.googlecode.hawk.core.model.IHawkModelResource;
+import org.hawk.core.IModelResourceFactory;
+import org.hawk.core.model.IHawkModelResource;
 
 public class ModelioModelFactory implements IModelResourceFactory {
 

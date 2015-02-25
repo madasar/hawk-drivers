@@ -1,4 +1,4 @@
-package uk.ac.york.cs.mde.hawk.modelio;
+package org.hawk.modelio;
 
 import java.io.File;
 import java.io.IOException;
@@ -38,8 +38,8 @@ import org.modelio.vcore.smkernel.mapi.MObject;
 import org.modelio.xmi.generation.ExportServices;
 import org.modelio.xmi.generation.GenerationProperties;
 
-import com.googlecode.hawk.core.model.*;
-import com.googlecode.hawk.core.IModelResourceFactory;;
+import org.hawk.core.model.*;
+import org.hawk.core.IModelResourceFactory;;
 
 public class ModelioModelResource implements IHawkModelResource {
 

@@ -1,10 +1,10 @@
-package uk.ac.york.cs.mde.hawk.modelio;
+package org.hawk.modelio;
 
 import java.util.HashMap;
 
 import org.eclipse.emf.ecore.EAnnotation;
 
-import com.googlecode.hawk.core.model.IHawkAnnotation;
+import org.hawk.core.model.*;
 
 
 

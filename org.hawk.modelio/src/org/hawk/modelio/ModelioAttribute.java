@@ -1,4 +1,4 @@
-package uk.ac.york.cs.mde.hawk.modelio;
+package org.hawk.modelio;
 
 import java.util.HashSet;
 
@@ -8,7 +8,7 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EClassifier;
 import org.eclipse.emf.ecore.EDataType;
 
-import com.googlecode.hawk.core.model.*;
+import org.hawk.core.model.*;
 
 public class ModelioAttribute extends ModelioObject implements IHawkAttribute {
 

@@ -8,7 +8,7 @@
  * Contributors:
  *     Konstantinos Barmpis - initial API and implementation
  ******************************************************************************/
-package uk.ac.york.cs.mde.hawk.modelio.mm;
+package org.hawk.modelio.mm;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -20,12 +20,12 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.resource.Resource;
+import org.hawk.modelio.ModelioClass;
+import org.hawk.modelio.ModelioPackage;
 
-import com.googlecode.hawk.core.IMetaModelResourceFactory;
-import com.googlecode.hawk.core.model.IHawkMetaModelResource;
-import com.googlecode.hawk.core.model.IHawkObject;
-import uk.ac.york.cs.mde.hawk.modelio.ModelioClass;
-import uk.ac.york.cs.mde.hawk.modelio.ModelioPackage;
+import org.hawk.core.IMetaModelResourceFactory;
+import org.hawk.core.model.IHawkMetaModelResource;
+import org.hawk.core.model.IHawkObject;
 
 public class ModelioMetaModelResource implements IHawkMetaModelResource {
 

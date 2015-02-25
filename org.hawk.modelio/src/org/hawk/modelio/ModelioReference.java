@@ -1,11 +1,11 @@
-package uk.ac.york.cs.mde.hawk.modelio;
+package org.hawk.modelio;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EClassifier;
 import org.eclipse.emf.ecore.EDataType;
 import org.eclipse.emf.ecore.EReference;
 
-import com.googlecode.hawk.core.model.*;
+import org.hawk.core.model.*;
 
 public class ModelioReference extends ModelioObject implements IHawkReference {
 
