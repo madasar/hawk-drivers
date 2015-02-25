@@ -14,7 +14,8 @@ Require-Bundle: org.eclipse.ui,
  org.modelio.core.utils,
  org.eclipse.uml2.uml,
  org.modelio.metamodel.emfapi,
- org.modelio.core.kernel
+ org.modelio.core.kernel,
+ org.modelio.core.project.data
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
 Import-Package: org.modelio.metamodel.data
