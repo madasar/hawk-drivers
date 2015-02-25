@@ -2,9 +2,9 @@
 <?eclipse version="3.4"?>
 <plugin>
    <extension
-         point="com.googlecode.hawk.core.ModelExtensionPoint">
+         point="org.hawk.core.ModelExtensionPoint">
        <ModelP
-            ModelParser="uk.ac.york.cs.mde.hawk.ifc.IFCModelFactory">
+            ModelParser="org.hawk.ifc.IFCModelFactory">
       </ModelP>
    </extension>
 

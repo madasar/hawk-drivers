@@ -6,7 +6,7 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EClassifier;
 import org.eclipse.emf.ecore.EPackage;
 
-import com.googlecode.hawk.core.model.*;
+import org.hawk.core.model.*;
 
 public class IFCPackage extends IFCObject implements IHawkPackage {
 

@@ -8,7 +8,7 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EClassifier;
 import org.eclipse.emf.ecore.EDataType;
 
-import com.googlecode.hawk.core.model.*;
+import org.hawk.core.model.*;
 
 public class IFCAttribute extends IFCObject implements IHawkAttribute {
 

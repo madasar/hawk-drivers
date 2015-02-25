@@ -8,7 +8,7 @@ import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EReference;
 import org.eclipse.emf.ecore.EStructuralFeature;
 
-import com.googlecode.hawk.core.model.*;
+import org.hawk.core.model.*;
 
 public class IFCClass extends IFCObject implements IHawkClass {
 

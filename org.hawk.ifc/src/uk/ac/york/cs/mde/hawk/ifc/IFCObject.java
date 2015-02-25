@@ -6,7 +6,7 @@ import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.InternalEObject;
 
-import com.googlecode.hawk.core.model.*;
+import org.hawk.core.model.*;
 
 public class IFCObject implements IHawkObject {
 

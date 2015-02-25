@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: ifc
-Bundle-SymbolicName: uk.ac.york.cs.mde.hawk.ifc;singleton:=true
+Bundle-SymbolicName: org.hawk.ifc;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: uk.ac.york.cs.mde.hawk.ifc.Activator
 Bundle-Vendor: yorkmde
@@ -9,6 +9,6 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.emf.ecore;bundle-version="2.7.0",
  org.eclipse.emf.ecore.xmi;bundle-version="2.7.0",
- com.googlecode.hawk.core;bundle-version="1.0.0"
+ org.hawk.core
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy

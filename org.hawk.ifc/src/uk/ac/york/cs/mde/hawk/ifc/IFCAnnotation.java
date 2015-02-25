@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 import org.eclipse.emf.ecore.EAnnotation;
 
-import com.googlecode.hawk.core.model.IHawkAnnotation;
+import org.hawk.core.model.IHawkAnnotation;
 
 
 

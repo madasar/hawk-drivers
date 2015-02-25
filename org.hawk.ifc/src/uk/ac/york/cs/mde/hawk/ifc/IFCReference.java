@@ -5,7 +5,7 @@ import org.eclipse.emf.ecore.EClassifier;
 import org.eclipse.emf.ecore.EDataType;
 import org.eclipse.emf.ecore.EReference;
 
-import com.googlecode.hawk.core.model.*;
+import org.hawk.core.model.*;
 
 public class IFCReference extends IFCObject implements IHawkReference {
 

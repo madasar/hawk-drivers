@@ -7,8 +7,9 @@ import java.io.IOException;
 import java.util.HashSet;
 
 
-import com.googlecode.hawk.core.IModelResourceFactory;
-import com.googlecode.hawk.core.model.IHawkModelResource;
+
+import org.hawk.core.IModelResourceFactory;
+import org.hawk.core.model.IHawkModelResource;
 
 public class IFCModelFactory implements IModelResourceFactory {
 
@@ -103,6 +104,11 @@ public class IFCModelFactory implements IModelResourceFactory {
 	
 	public String getMetaModelType() {
 		return metamodeltype;
+	}
+
+	@Override
+	public String getHumanReadableName() {
+		return "BIM IFC 2x3 Parser for Hawk";
 	}
 
 

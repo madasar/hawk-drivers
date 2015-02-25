@@ -13,8 +13,8 @@ import org.bimserver.ifc.step.deserializer.IfcStepDeserializer;
 import org.bimserver.ifc.xml.deserializer.IfcXmlDeserializer;
 import org.bimserver.plugins.deserializers.Deserializer;
 
-import com.googlecode.hawk.core.model.*;
-import com.googlecode.hawk.core.IModelResourceFactory;;
+import org.hawk.core.model.*;
+import org.hawk.core.IModelResourceFactory;;
 
 public class IFCModelResource implements IHawkModelResource {
 

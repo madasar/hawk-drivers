@@ -24,10 +24,10 @@ import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 import org.eclipse.emf.ecore.xmi.impl.EcoreResourceFactoryImpl;
 import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
+import org.hawk.core.IMetaModelResourceFactory;
+import org.hawk.core.model.IHawkMetaModelResource;
+import org.hawk.core.model.IHawkPackage;
 
-import com.googlecode.hawk.core.IMetaModelResourceFactory;
-import com.googlecode.hawk.core.model.IHawkMetaModelResource;
-import com.googlecode.hawk.core.model.IHawkPackage;
 import uk.ac.york.cs.mde.hawk.ifc.IFCPackage;
 import uk.ac.york.cs.mde.hawk.ifc.mm.IFCMetaModelResource;
 
@@ -210,5 +210,10 @@ public class IFCMetaModelResourceFactory implements IMetaModelResourceFactory {
 			return false;
 		else
 			return true;
+	}
+
+	@Override
+	public String getHumanReadableName() {
+		return "IFC Metamodel parser";
 	}
 }

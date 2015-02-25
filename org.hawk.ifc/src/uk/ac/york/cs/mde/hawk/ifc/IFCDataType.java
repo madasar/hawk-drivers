@@ -3,7 +3,7 @@ package uk.ac.york.cs.mde.hawk.ifc;
 import org.eclipse.emf.ecore.EDataType;
 import org.eclipse.emf.ecore.EObject;
 
-import com.googlecode.hawk.core.model.*;
+import org.hawk.core.model.*;
 
 public class IFCDataType extends IFCObject implements IHawkDataType {
 

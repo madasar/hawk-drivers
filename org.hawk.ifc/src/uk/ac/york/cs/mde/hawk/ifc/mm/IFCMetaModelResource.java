@@ -21,9 +21,9 @@ import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.resource.Resource;
 
-import com.googlecode.hawk.core.IMetaModelResourceFactory;
-import com.googlecode.hawk.core.model.IHawkMetaModelResource;
-import com.googlecode.hawk.core.model.IHawkObject;
+import org.hawk.core.IMetaModelResourceFactory;
+import org.hawk.core.model.IHawkMetaModelResource;
+import org.hawk.core.model.IHawkObject;
 import uk.ac.york.cs.mde.hawk.ifc.IFCClass;
 import uk.ac.york.cs.mde.hawk.ifc.IFCPackage;
 
