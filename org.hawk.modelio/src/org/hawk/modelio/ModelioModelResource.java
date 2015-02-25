@@ -137,7 +137,7 @@ public class ModelioModelResource implements IHawkModelResource {
                    // genProp.setFilePath(file);
                     
                     genProp.setSelectedPackage(entryPoint);
-                    genProp.setRoundtripEnabled(false);
+                   // genProp.setRoundtripEnabled(false);
 
                     
                     //Create a EMF resource

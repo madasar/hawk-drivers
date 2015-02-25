@@ -108,5 +108,11 @@ public class ModelioModelFactory implements IModelResourceFactory {
 		return metamodeltype;
 	}
 
+	@Override
+	public String getHumanReadableName() {
+		// TODO Auto-generated method stub
+		return "Modelio parser for Hawk";
+	}
+
 
 }

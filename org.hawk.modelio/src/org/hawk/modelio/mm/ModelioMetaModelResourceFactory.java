@@ -26,7 +26,6 @@ import org.eclipse.emf.ecore.xmi.impl.EcoreResourceFactoryImpl;
 import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
 import org.hawk.modelio.ModelioPackage;
 import org.hawk.modelio.mm.ModelioMetaModelResource;
-
 import org.hawk.core.IMetaModelResourceFactory;
 import org.hawk.core.model.IHawkMetaModelResource;
 import org.hawk.core.model.IHawkPackage;
@@ -210,5 +209,11 @@ public class ModelioMetaModelResourceFactory implements IMetaModelResourceFactor
 			return false;
 		else
 			return true;
+	}
+
+	@Override
+	public String getHumanReadableName() {
+		// TODO Auto-generated method stub
+		return "Modelio Meta model parser for Hawk";
 	}
 }

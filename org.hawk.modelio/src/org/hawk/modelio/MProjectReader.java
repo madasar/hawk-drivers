@@ -81,10 +81,10 @@ public class MProjectReader {
                     genProp.initialize(new MModelServices(gp));
                     genProp.setTimeDisplayerActivated(false);
                     genProp.setSelectedPackage(entryPoint);
-                    genProp.setFilePath(file);
+                    //genProp.setFilePath(file);
                     
                     genProp.setSelectedPackage(entryPoint);
-                    genProp.setRoundtripEnabled(false);
+                    //genProp.setRoundtripEnabled(false);
 
                     
                     //Create a EMF resource
