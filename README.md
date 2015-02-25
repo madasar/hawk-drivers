@@ -34,6 +34,7 @@ In order to use these drivers with Hawk, follow these steps:
 	* org.modelio.metamodel.emfapi
 	* org.modelio.core.kernel
 	* org.modelio.metamodel.data
+	However, Modelio projects have interdpedencies that mean all projects may be required (580MB). Commit bb67b5b7ba0ad22905c4aaaeb4f0774c1b9471d7 contains a minimal set of modelio projects and dependencies (58MB) that are required by the modelio driver.
 
 5. Clone the Hawk IFC and Modelio drivers sources and import the drivers into the Eclipse workspace.
 
