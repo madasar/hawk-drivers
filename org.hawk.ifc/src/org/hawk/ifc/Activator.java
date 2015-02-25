@@ -1,4 +1,4 @@
-package uk.ac.york.cs.mde.hawk.ifc;
+package org.hawk.ifc;
 
 import org.eclipse.core.runtime.Plugin;
 import org.osgi.framework.BundleContext;

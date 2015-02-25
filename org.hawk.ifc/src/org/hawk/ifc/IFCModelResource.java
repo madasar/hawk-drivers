@@ -1,4 +1,4 @@
-package uk.ac.york.cs.mde.hawk.ifc;
+package org.hawk.ifc;
 
 import java.io.File;
 import java.io.IOException;

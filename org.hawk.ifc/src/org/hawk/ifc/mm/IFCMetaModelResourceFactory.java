@@ -8,7 +8,7 @@
  * Contributors:
  *     Konstantinos Barmpis - initial API and implementation
  ******************************************************************************/
-package uk.ac.york.cs.mde.hawk.ifc.mm;
+package org.hawk.ifc.mm;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -27,9 +27,8 @@ import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
 import org.hawk.core.IMetaModelResourceFactory;
 import org.hawk.core.model.IHawkMetaModelResource;
 import org.hawk.core.model.IHawkPackage;
-
-import uk.ac.york.cs.mde.hawk.ifc.IFCPackage;
-import uk.ac.york.cs.mde.hawk.ifc.mm.IFCMetaModelResource;
+import org.hawk.ifc.IFCPackage;
+import org.hawk.ifc.mm.IFCMetaModelResource;
 
 public class IFCMetaModelResourceFactory implements IMetaModelResourceFactory {
 

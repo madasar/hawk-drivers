@@ -8,7 +8,7 @@
  * Contributors:
  *     Konstantinos Barmpis - initial API and implementation
  ******************************************************************************/
-package uk.ac.york.cs.mde.hawk.ifc.mm;
+package org.hawk.ifc.mm;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -20,12 +20,11 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.resource.Resource;
-
 import org.hawk.core.IMetaModelResourceFactory;
 import org.hawk.core.model.IHawkMetaModelResource;
 import org.hawk.core.model.IHawkObject;
-import uk.ac.york.cs.mde.hawk.ifc.IFCClass;
-import uk.ac.york.cs.mde.hawk.ifc.IFCPackage;
+import org.hawk.ifc.IFCClass;
+import org.hawk.ifc.IFCPackage;
 
 public class IFCMetaModelResource implements IHawkMetaModelResource {
 

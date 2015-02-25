@@ -1,4 +1,4 @@
-package uk.ac.york.cs.mde.hawk.ifc;
+package org.hawk.ifc;
 
 import org.eclipse.emf.ecore.EDataType;
 import org.eclipse.emf.ecore.EObject;

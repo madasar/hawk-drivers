@@ -8,7 +8,7 @@
  * Contributors:
  *     Konstantinos Barmpis - initial API and implementation
  ******************************************************************************/
-package uk.ac.york.cs.mde.hawk.ifc.mm;
+package org.hawk.ifc.mm;
 
 import java.util.Arrays;
 

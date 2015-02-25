@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: ifc
 Bundle-SymbolicName: org.hawk.ifc;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: uk.ac.york.cs.mde.hawk.ifc.Activator
+Bundle-Activator: org.hawk.ifc.Activator
 Bundle-Vendor: yorkmde
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
